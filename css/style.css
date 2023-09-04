@@ -193,7 +193,7 @@
     background: #FFFFFF;
     box-shadow: 0 0 30px rgba(255, 255, 255, .9);
     border-radius: 45px;
-    transition: 1s;
+    transition: 10s;
 }
 
 .header-carousel .owl-dots .owl-dot.active {
