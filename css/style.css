@@ -746,3 +746,12 @@ margin: 25px
     height: 33vh;
     
 }}
+
+.team-img {
+    width: 100%;
+    /* Set a fixed width of 100% to make the images responsive */
+    max-height: 420px;
+    /* Set a maximum height as needed to maintain uniformity */
+    height: auto;
+    /* Ensure aspect ratio is maintained */
+}
