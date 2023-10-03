@@ -754,6 +754,8 @@ margin: 25px
     /* Set a consistent aspect ratio (1:1) for square containers */
     overflow: hidden;
     /* Hide any image overflow */
+    margin: 0 auto;
+        /* Center-align the container horizontally */
 }
 
 /* Set a consistent width and height for the team member images */
