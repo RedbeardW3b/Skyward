@@ -748,9 +748,9 @@ margin: 25px
 }}
 
 .img-container {
-    width: 200px;
+    width: 300px;
     /* Set a fixed width for the containers (adjust as needed) */
-    height: 200px;
+    height: 300px;
     /* Set a consistent aspect ratio (1:1) for square containers */
     overflow: hidden;
     /* Hide any image overflow */
