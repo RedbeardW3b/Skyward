@@ -764,7 +764,7 @@ margin: 25px
 
 /* Set a consistent width and height for the team member images */
 .img-team {
-             width: auto;
+            width: auto;
             /* Set width to auto to show the full image */
             height: auto;
             /* Set height to auto to show the full image */
@@ -772,5 +772,7 @@ margin: 25px
             /* Ensure the image fits within the container */
             max-height: 100%;
             /* Ensure the image fits within the container */
+            object-fit: cover;
+                /* Maintain aspect ratio and fill the container */
     }
     
