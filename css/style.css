@@ -748,9 +748,9 @@ margin: 25px
 }}
 
 .img-container {
-        width: 75%;
+        width: 250;
         /* Set the desired width */
-        height: 200px;
+        height: 250px;
         /* Set the desired height */
         overflow: hidden;
         /* Hide any image overflow */
