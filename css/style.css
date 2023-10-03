@@ -761,7 +761,14 @@ margin: 25px
         align-items: center;
         /* Center vertically */
     }
-
+.img-container img {
+    width: 100%;
+    /* Make sure the image fills the container */
+    height: 100%;
+    /* Make sure the image fills the container */
+    display: block;
+    /* Remove any default image spacing */
+}
 /* Set a consistent width and height for the team member images */
 .team-img {
             width: auto;
