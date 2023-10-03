@@ -747,11 +747,19 @@ margin: 25px
     
 }}
 
-.team-img {
+.img-container {
+    width: 200px;
+    /* Set a fixed width for the containers (adjust as needed) */
+    height: 200px;
+    /* Set a consistent aspect ratio (1:1) for square containers */
+    overflow: hidden;
+    /* Hide any image overflow */
+}
+
+/* Set a consistent width and height for the team member images */
+.img-team {
     width: 100%;
-    /* Set a fixed width of 100% to make the images responsive */
-    max-height: 420px;
-    /* Set a maximum height as needed to maintain uniformity */
-    height: auto;
-    /* Ensure aspect ratio is maintained */
+    height: 100%;
+    object-fit: cover;
+    /* Maintain aspect ratio and fill the container */
 }
