@@ -759,7 +759,8 @@ margin: 25px
 /* Set a consistent width and height for the team member images */
 .img-team {
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 420px;
     object-fit: cover;
     /* Maintain aspect ratio and fill the container */
 }
