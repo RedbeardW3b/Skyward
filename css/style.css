@@ -748,7 +748,7 @@ margin: 25px
 }}
 
 .img-container {
-    width: 200px;
+        width: 200px;
         /* Set the desired width */
         height: 200px;
         /* Set the desired height */
@@ -764,9 +764,13 @@ margin: 25px
 
 /* Set a consistent width and height for the team member images */
 .img-team {
-        max-width: 100%;
-        /* Ensure the image fits within the container */
-        height: auto;
-        object-fit: cover;
+             width: auto;
+            /* Set width to auto to show the full image */
+            height: auto;
+            /* Set height to auto to show the full image */
+            max-width: 100%;
+            /* Ensure the image fits within the container */
+            max-height: 100%;
+            /* Ensure the image fits within the container */
     }
     
