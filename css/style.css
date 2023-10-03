@@ -752,8 +752,6 @@ margin: 25px
         /* Set the desired width */
         height: 200px;
         /* Set the desired height */
-        border-radius: 50%;
-        /* Create a rounded container */
         overflow: hidden;
         /* Hide any image overflow */
         display: flex;
@@ -768,7 +766,7 @@ margin: 25px
 .img-team {
         max-width: 100%;
         /* Ensure the image fits within the container */
-        max-height: 100%;
-        /* Ensure the image fits within the container */
+        height: auto;
+        object-fit: cover;
     }
     
