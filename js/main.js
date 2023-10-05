@@ -121,3 +121,30 @@
 //     });
     
 // })(jQuery);
+
+// Get references to the pop-up elements
+const popupContainer = document.getElementById("popup-container");
+const closeButton = document.getElementById("close-popup");
+
+// Open the pop-up when needed
+function openPopup() {
+  popupContainer.style.display = "flex";
+}
+
+// Close the pop-up when the close button is clicked
+closeButton.addEventListener("click", () => {
+  popupContainer.style.display = "none";
+});
+
+// Call openPopup() to display the pop-up when a specific event occurs (e.g., button click)
+
+// Get a reference to the "Terms of Service" link element
+const termsLink = document.getElementById("terms-link");
+
+// Add a click event listener to the link
+termsLink.addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent the default behavior (e.g., navigating to a new page)
+
+  // Call the openPopup() function to display the pop-up
+  openPopup();
+});
