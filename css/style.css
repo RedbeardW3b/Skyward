@@ -812,3 +812,21 @@ margin: 25px
             right: 10px;
             cursor: pointer;
         }
+
+                .equal-dimensions {
+                    width: 100%;
+                    /* Set the desired width */
+                    height: 200px;
+                    /* Set the desired height */
+                    object-fit: cover;
+                    /* Maintain aspect ratio and cover the container */
+                }
+        
+                .equal-dimensions-thumbnail {
+                    width: 140px;
+                    /* Set the desired width */
+                    height: 70px;
+                    /* Set the desired height */
+                    object-fit: cover;
+                    /* Maintain aspect ratio and cover the container */
+                }
