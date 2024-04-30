@@ -234,6 +234,10 @@
     color: var(--light);
 }
 
+.page-header-contact {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/beachside-solar.jpg) center center no-repeat;
+    background-size: cover;
+}
 
 /*** About ***/
 @media (min-width: 992px) {
